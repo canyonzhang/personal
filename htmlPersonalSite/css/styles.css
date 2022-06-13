@@ -1,0 +1,92 @@
+.profile_div { //class selector for specific elements
+    padding: 0%;
+    background-color: #C7CEDB;
+  }
+  .profile{
+    height: 15%;
+    width: 15%;
+    display: inline;
+    margin: 2%;
+  }
+  .github{
+
+  }
+  .connect_div{
+    background-color: #d5e1f5;
+    padding: 0;
+    margin: 0;
+  }
+  .Education_div{
+    background-color: #d5e1f5;
+    padding: 2%;
+    margin: 0;
+  }
+  body{
+    background-color: #C7CEDB;
+    margin: 0;
+    text-align: center;
+  }
+  h3{
+    color: #2B7C85;
+    font-family: open sans, sans-serif;
+  }
+  h2{
+    color: #2B7C85;
+    font-family: open sans, sans-serif;
+  }
+  .logos{
+    filter: grayscale(100%);
+    opacity: .6;
+    transition: .6s;
+  }
+  .logos:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+    margin-top: -5px;
+    box-shadow: 5px 25px 30px -20px rgba(0, 0, 0, 0.3);
+  }
+  h1{
+    color: #2B7C85;
+    margin-top: 0;
+    font-family: open sans, sans-serif;
+  }
+  p{
+    color: #0C1446;
+    font-family: courier-new, monospace;
+  }
+  a{
+    color: #0C1446;
+    font-family: courier-new, monospace;
+    text-decoration: none;
+  }
+  a:hover{
+    color: #87ACA3;
+  }
+  hr{
+    border-top-color: white;
+    border-top-width: 5px;
+    border-style: none;
+    border-top-style: dotted;
+    height: 0px;
+    width: 10%;
+  }
+  table {
+    border-spacing: 15px;
+  }
+  li{
+    color: #0C1446;
+    font-family: courier-new, monospace;
+  }
+  td{
+    color: #0C1446;
+    font-family: courier-new, monospace;
+  }
+th{
+  color: #2B7C85;
+  font-family: courier-new, monospace;
+}
+
+#Education{ //id selector
+  color: #0C1446;
+  font-style: italic;
+}
