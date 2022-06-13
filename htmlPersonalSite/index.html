@@ -9,82 +9,90 @@
   <title>CSCanyon</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
   </head>
   <div class="profile_div">
-      <span><img class="profile" src="images/Canyon-modified.png" alt="Profile Picture"><h1 style = "margin: 2%;">Hi, I'm Canyon</h1>
-        <em><p style = "margin: 2%">an aspiring software developer</p></span>
-          <hr>
+    <br>
+    <br>
+    <br><br>
+      <span><h1>Hi, I'm Canyon</h1>
+        <em><p style = "margin: 2%">an aspiring software developer.</p></span>
   </div>
 <body> <!--background color is a css element, this is inline css-->
-  <div class="connect_div">
-      <h2 style = "margin: 2%;">Let's connect!</h2>
-      <span>
-          <a href="https://www.linkedin.com/in/canyon-zhang-86231a208/" class = "logos" style = "margin: 2%;"><img style ="width: 4%;" src="images/linkedin-logo.png" alt ="github_logo" /></a>
-      </span>
-    <a href="https://github.com/canyonzhang" class = "logos"><img style ="width: 4%;" src="images/github_logo.webp" alt ="github_logo" /></a>
+  <hr>
+  <div class="intro">
+    <img class="profile" src="images/Canyon-modified.png" alt="Profile Picture"><h1 style = "margin: 0;">
+    <p style = "line-height: 2;">Hey! I'm a rising junior at USC studying computer science, proficient in C++, Java, Python, Docker,
+    <br>Git and various web development technologies. I am driven to learn more about the intersections and practical
+      <br>applications of programming in information systems, health care, entertainment, and finance.
+      <br>I am always open to connecting about new opportunities, feel free to contact me at canyonzh@usc.edu!</p>
+      <hr>
   </div>
-<hr>
-  <p style="margin: 2%;">Hey! I'm a rising junior at USC studying computer science, proficient in C++, Java, Python, Docker,
-  <br>Git and various web development technologies. I am driven to learn more about the intersections and practical
-    <br>applications of programming in information systems, health care, entertainment, and finance.
-    <br>I am always open to connecting about new opportunities, feel free to contact me at canyonzh@usc.edu!</p>
-    <hr>
+
     <div class="Education_div">
       <h3>Education</h3>
-      <ul>
-        <li id = "Education">Univserity of Southern California, BS, Computer Science, August 2020 - May 2024</li>
-      </ul>
+        <p id = "Education">Univserity of Southern California, BS, Computer Science, August 2020 - May 2024.</li>
       <h3><a href="file:///C:/Users/kbdg651/Downloads/RESUME-03_11_22.pdf">RESUME</a></h3>
     </div>
     <hr>
       <br>
-      <h3>Work Experience</h3>
-      <table style = "text-align: center;">
-        <thead>
-          <th>Company</th>
-          <th>Role</th>
-          <th>Date</th>
-        </thead>
-        <tbody>
-          <tr>
-              <td>National Cancer Institute</td>
-            <td>Bioinformatics Specialist</td>
-            <td>June 2019 - August 2021</td>
-          </tr>
-          <tr>
-            <td>AstraZeneca</td>
-            <td>Software Development Intern</td>
-            <td>May 2022 - Present</td>
-          </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-      </table>
+      <div class="work">
+        <h3>Work Experience</h3>
+        <table class = "table-center">
+          <thead>
+            <th>Company</th>
+            <th>Role</th>
+            <th>Date</th>
+          </thead>
+          <tbody style = "margin-left: 40%; margin-right: 40%;">
+            <tr>
+                <td>National Cancer Institute</td>
+              <td>Bioinformatics Specialist</td>
+              <td>June 2019 - August 2021</td>
+            </tr>
+            <tr>
+              <td>AstraZeneca</td>
+              <td>Software Development Intern</td>
+              <td>May 2022 - Present</td>
+            </tr>
+          </tbody>
+          <tfoot>
+          </tfoot>
+        </table>
+      </div>
     <hr>
-    <table cellspacing = "5">
-      <thead>
-        <th>Skills</th>
-        <th>Proficiency</th>
-      </thead>
-        <tbody>
-          <tr><td>Python</td><td>🧠🧠🧠🧠</td></tr>
-            <tr><td>C++</td><td>🧠🧠🧠🧠</td></tr>
-            <tr><td>Java</td><td>🧠🧠🧠🧠</td></tr>
-            <tr><td>Git</td><td>🧠🧠</td></tr>
-            <tr><td>MySQL</td><td>🧠🧠🧠</td></tr>
-        </tbody>
-    </table>
+    <div class="hobbies">
+      <br>
+      <div class="hobbies-row">
+        <span>
+          <h2 style = "text-align: center; padding: 0;">In My Spare Time...</h2>
+        <img class = "basketball-gif" src="images/basketball.gif" width="15%" height="15%" frameBorder="0" style= "margin-right: 30px;"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <p>I started playing basketball when I was 7 years old, and it is one of <br> my favorite pasttimes. I've learned countless lessons and made lasting relationships <br>through the sport; I'm always looking to meet more people through hoops, <br>
+          so hit me up if you're ever trying to play or just chat about it!</p>
+          <br>
+        <img style = "margin-left: 40px;" class ="coding-gif" src="images/coding.gif" alt="coding-gif">
+        <p style = "text-align: right; ">Paragraph about coding</p>
+        </span>
+      </div>
+    </div>
 <hr>
+<div class="contact-me">
+  <h2>Let's Connect!</h2>
+  <div class="contact-message">
+    <p>I'm always looking for new opportunities to learn and grow as a developer and a person! Feel free to contact me below!</p><br>
+  </div>
+  <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+  <hr>
+</div>
+<div class="bottom-container">
+        <a href="https://www.linkedin.com/in/canyon-zhang-86231a208/" class = "logos" style = "margin: 0%;"></a>
+  <a class="footer-link" href="https://www.linkedin.com/in/canyon-zhang-86231a208/"><img style ="width: 4%;" src="images/linkedin-logo.png" alt ="linkedin_logo" /></a>
+  <a class="footer-link" href="https://github.com/canyonzhang"><img style ="width: 4%;" src="images/github_logo.webp" alt ="github_logo" /></a>
+  <p style = "text-align: center; font-size: 75%;">© 2022 Canyon Zhang.</p>
 
-    <h3>My Hobbies</h3>
-    <ol>
-      <li><a href="hoops.html">Basketball</a></li>
-      <li>Working Out</li>
-      <li>Listening to <a href="http://open.spotify.com/user/canyonzhang02">Music</a></li>
-      <li>Coding</li>
-    </ol>
-
+</div>
 </body>
 
 </html>
