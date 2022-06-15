@@ -2,7 +2,7 @@
     padding-top: 0;
     background-color: #d5e1f5;
     font-family: roboto, sans-serif;
-    margin: ;
+    margin: 0;
     position: relative;
     top: 0;
     height: 100vh;
@@ -36,15 +36,29 @@
     padding: 2%;
     margin: 0;
   }
+  .intro-text{
+      animation: intro-load var(--load-time) ease-out; use -- to declare variable in css
+  }
+
+  @keyframes intro-load {
+    0%{
+      transform: translateY(-500%);
+    }
+    transform: translateY(0);
+    100%{
+    }
+  }
   body{
     background-color: #C7CEDB;
     margin: 0;
     text-align: center;
+    --load-time: 1500ms;
   }
   h3{
     color: #2B7C85;
     font-family: roboto, sans-serif;
     font-size: 2rem;
+    display: inline;
   }
   h2{
     color: #2B7C85;
@@ -124,7 +138,8 @@
 }
   h1{
     color: #0C1446;
-    margin-top: 0;
+    position: relative;
+    bottom: 45%;
     font-family: 'Roboto', sans-serif;
     font-size: 5rem;
     line-height: 1;
